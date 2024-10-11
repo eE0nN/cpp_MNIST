@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/e/cpp_MINST/build",
+  "command": "/usr/bin/g++   -I/mnt/e/cpp_MINST  -g   -std=gnu++11 -o CMakeFiles/NeuralNetworkProject.dir/main.cpp.o -c /mnt/e/cpp_MINST/main.cpp",
+  "file": "/mnt/e/cpp_MINST/main.cpp"
+},
+{
+  "directory": "/mnt/e/cpp_MINST/build",
+  "command": "/usr/bin/g++   -I/mnt/e/cpp_MINST  -g   -std=gnu++11 -o CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o -c /mnt/e/cpp_MINST/DataLoader.cpp",
+  "file": "/mnt/e/cpp_MINST/DataLoader.cpp"
+}
+]

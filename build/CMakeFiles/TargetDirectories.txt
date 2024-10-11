@@ -1,0 +1,3 @@
+/mnt/e/cpp_MINST/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/cpp_MINST/build/CMakeFiles/edit_cache.dir
+/mnt/e/cpp_MINST/build/CMakeFiles/NeuralNetworkProject.dir

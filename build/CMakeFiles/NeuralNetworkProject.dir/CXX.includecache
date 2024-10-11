@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/cpp_MINST/DataLoader.h
+vector
+-
+string
+-
+
+/mnt/e/cpp_MINST/main.cpp
+DataLoader.h
+/mnt/e/cpp_MINST/DataLoader.h
+iostream
+-
+
