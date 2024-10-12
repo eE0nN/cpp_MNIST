@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/NeuralNetworkProject.dir/main.cpp.o CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o  -o NeuralNetworkProject 
+/usr/bin/g++  -g   CMakeFiles/NeuralNetworkProject.dir/main.cpp.o CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o  -o NeuralNetworkProject 

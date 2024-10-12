@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/e/cpp_MINST/DataLoader.cpp" "/mnt/e/cpp_MINST/build/CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o"
+  "/mnt/e/cpp_MINST/dataloader.cpp" "/mnt/e/cpp_MINST/build/CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o"
+  "/mnt/e/cpp_MINST/layer.cpp" "/mnt/e/cpp_MINST/build/CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o"
   "/mnt/e/cpp_MINST/main.cpp" "/mnt/e/cpp_MINST/build/CMakeFiles/NeuralNetworkProject.dir/main.cpp.o"
+  "/mnt/e/cpp_MINST/neuralnetwork.cpp" "/mnt/e/cpp_MINST/build/CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,7 +6,17 @@
 },
 {
   "directory": "/mnt/e/cpp_MINST/build",
-  "command": "/usr/bin/g++   -I/mnt/e/cpp_MINST  -g   -std=gnu++11 -o CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o -c /mnt/e/cpp_MINST/DataLoader.cpp",
-  "file": "/mnt/e/cpp_MINST/DataLoader.cpp"
+  "command": "/usr/bin/g++   -I/mnt/e/cpp_MINST  -g   -std=gnu++11 -o CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o -c /mnt/e/cpp_MINST/dataloader.cpp",
+  "file": "/mnt/e/cpp_MINST/dataloader.cpp"
+},
+{
+  "directory": "/mnt/e/cpp_MINST/build",
+  "command": "/usr/bin/g++   -I/mnt/e/cpp_MINST  -g   -std=gnu++11 -o CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o -c /mnt/e/cpp_MINST/layer.cpp",
+  "file": "/mnt/e/cpp_MINST/layer.cpp"
+},
+{
+  "directory": "/mnt/e/cpp_MINST/build",
+  "command": "/usr/bin/g++   -I/mnt/e/cpp_MINST  -g   -std=gnu++11 -o CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o -c /mnt/e/cpp_MINST/neuralnetwork.cpp",
+  "file": "/mnt/e/cpp_MINST/neuralnetwork.cpp"
 }
 ]

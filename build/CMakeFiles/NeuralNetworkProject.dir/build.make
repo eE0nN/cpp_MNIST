@@ -70,32 +70,62 @@ CMakeFiles/NeuralNetworkProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuralNetworkProject.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/cpp_MINST/main.cpp -o CMakeFiles/NeuralNetworkProject.dir/main.cpp.s
 
-CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o: CMakeFiles/NeuralNetworkProject.dir/flags.make
-CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o: ../DataLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/cpp_MINST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o -c /mnt/e/cpp_MINST/DataLoader.cpp
+CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o: CMakeFiles/NeuralNetworkProject.dir/flags.make
+CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o: ../dataloader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/cpp_MINST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o -c /mnt/e/cpp_MINST/dataloader.cpp
 
-CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/cpp_MINST/DataLoader.cpp > CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.i
+CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/cpp_MINST/dataloader.cpp > CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.i
 
-CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/cpp_MINST/DataLoader.cpp -o CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.s
+CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/cpp_MINST/dataloader.cpp -o CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.s
+
+CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o: CMakeFiles/NeuralNetworkProject.dir/flags.make
+CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o: ../layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/cpp_MINST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o -c /mnt/e/cpp_MINST/layer.cpp
+
+CMakeFiles/NeuralNetworkProject.dir/layer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuralNetworkProject.dir/layer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/cpp_MINST/layer.cpp > CMakeFiles/NeuralNetworkProject.dir/layer.cpp.i
+
+CMakeFiles/NeuralNetworkProject.dir/layer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuralNetworkProject.dir/layer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/cpp_MINST/layer.cpp -o CMakeFiles/NeuralNetworkProject.dir/layer.cpp.s
+
+CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o: CMakeFiles/NeuralNetworkProject.dir/flags.make
+CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o: ../neuralnetwork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/cpp_MINST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o -c /mnt/e/cpp_MINST/neuralnetwork.cpp
+
+CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/cpp_MINST/neuralnetwork.cpp > CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.i
+
+CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/cpp_MINST/neuralnetwork.cpp -o CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.s
 
 # Object files for target NeuralNetworkProject
 NeuralNetworkProject_OBJECTS = \
 "CMakeFiles/NeuralNetworkProject.dir/main.cpp.o" \
-"CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o"
+"CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o" \
+"CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o" \
+"CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o"
 
 # External object files for target NeuralNetworkProject
 NeuralNetworkProject_EXTERNAL_OBJECTS =
 
 NeuralNetworkProject: CMakeFiles/NeuralNetworkProject.dir/main.cpp.o
-NeuralNetworkProject: CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o
+NeuralNetworkProject: CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o
+NeuralNetworkProject: CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o
+NeuralNetworkProject: CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o
 NeuralNetworkProject: CMakeFiles/NeuralNetworkProject.dir/build.make
 NeuralNetworkProject: CMakeFiles/NeuralNetworkProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/cpp_MINST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable NeuralNetworkProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/cpp_MINST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable NeuralNetworkProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeuralNetworkProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

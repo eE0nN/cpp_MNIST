@@ -6,15 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/mnt/e/cpp_MINST/DataLoader.h
+/mnt/e/cpp_MINST/dataloader.h
 vector
 -
 string
 -
 
+/mnt/e/cpp_MINST/layer.h
+vector
+-
+
 /mnt/e/cpp_MINST/main.cpp
-DataLoader.h
-/mnt/e/cpp_MINST/DataLoader.h
+neuralnetwork.h
+/mnt/e/cpp_MINST/neuralnetwork.h
+dataloader.h
+/mnt/e/cpp_MINST/dataloader.h
 iostream
+-
+algorithm
+-
+vector
+-
+
+/mnt/e/cpp_MINST/neuralnetwork.h
+layer.h
+/mnt/e/cpp_MINST/layer.h
+vector
 -
 

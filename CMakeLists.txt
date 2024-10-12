@@ -16,7 +16,9 @@ endif()
 # 添加项目源文件
 set(SOURCES
     main.cpp
-    DataLoader.cpp
+    dataloader.cpp
+    layer.cpp
+    neuralnetwork.cpp
 )
 
 # 添加头文件路径

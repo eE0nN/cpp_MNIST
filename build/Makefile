@@ -123,32 +123,59 @@ NeuralNetworkProject/fast:
 	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/build
 .PHONY : NeuralNetworkProject/fast
 
-DataLoader.o: DataLoader.cpp.o
+dataloader.o: dataloader.cpp.o
 
-.PHONY : DataLoader.o
+.PHONY : dataloader.o
 
 # target to build an object file
-DataLoader.cpp.o:
-	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.o
-.PHONY : DataLoader.cpp.o
+dataloader.cpp.o:
+	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.o
+.PHONY : dataloader.cpp.o
 
-DataLoader.i: DataLoader.cpp.i
+dataloader.i: dataloader.cpp.i
 
-.PHONY : DataLoader.i
+.PHONY : dataloader.i
 
 # target to preprocess a source file
-DataLoader.cpp.i:
-	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.i
-.PHONY : DataLoader.cpp.i
+dataloader.cpp.i:
+	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.i
+.PHONY : dataloader.cpp.i
 
-DataLoader.s: DataLoader.cpp.s
+dataloader.s: dataloader.cpp.s
 
-.PHONY : DataLoader.s
+.PHONY : dataloader.s
 
 # target to generate assembly for a file
-DataLoader.cpp.s:
-	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/DataLoader.cpp.s
-.PHONY : DataLoader.cpp.s
+dataloader.cpp.s:
+	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/dataloader.cpp.s
+.PHONY : dataloader.cpp.s
+
+layer.o: layer.cpp.o
+
+.PHONY : layer.o
+
+# target to build an object file
+layer.cpp.o:
+	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/layer.cpp.o
+.PHONY : layer.cpp.o
+
+layer.i: layer.cpp.i
+
+.PHONY : layer.i
+
+# target to preprocess a source file
+layer.cpp.i:
+	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/layer.cpp.i
+.PHONY : layer.cpp.i
+
+layer.s: layer.cpp.s
+
+.PHONY : layer.s
+
+# target to generate assembly for a file
+layer.cpp.s:
+	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/layer.cpp.s
+.PHONY : layer.cpp.s
 
 main.o: main.cpp.o
 
@@ -177,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+neuralnetwork.o: neuralnetwork.cpp.o
+
+.PHONY : neuralnetwork.o
+
+# target to build an object file
+neuralnetwork.cpp.o:
+	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.o
+.PHONY : neuralnetwork.cpp.o
+
+neuralnetwork.i: neuralnetwork.cpp.i
+
+.PHONY : neuralnetwork.i
+
+# target to preprocess a source file
+neuralnetwork.cpp.i:
+	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.i
+.PHONY : neuralnetwork.cpp.i
+
+neuralnetwork.s: neuralnetwork.cpp.s
+
+.PHONY : neuralnetwork.s
+
+# target to generate assembly for a file
+neuralnetwork.cpp.s:
+	$(MAKE) -f CMakeFiles/NeuralNetworkProject.dir/build.make CMakeFiles/NeuralNetworkProject.dir/neuralnetwork.cpp.s
+.PHONY : neuralnetwork.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... NeuralNetworkProject"
-	@echo "... DataLoader.o"
-	@echo "... DataLoader.i"
-	@echo "... DataLoader.s"
+	@echo "... dataloader.o"
+	@echo "... dataloader.i"
+	@echo "... dataloader.s"
+	@echo "... layer.o"
+	@echo "... layer.i"
+	@echo "... layer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... neuralnetwork.o"
+	@echo "... neuralnetwork.i"
+	@echo "... neuralnetwork.s"
 .PHONY : help
 
 
